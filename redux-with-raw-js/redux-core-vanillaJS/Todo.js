@@ -1,5 +1,5 @@
 // index.js
-import { createStore } from "redux";
+const { createStore } = require("redux");
 
 // ===========================
 // 1. Action Types

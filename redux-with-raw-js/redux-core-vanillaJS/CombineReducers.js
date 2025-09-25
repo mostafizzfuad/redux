@@ -1,4 +1,5 @@
-import { combineReducers, createStore } from "redux";
+// import { combineReducers, createStore } from "redux"; // ES6 module syntax
+const { combineReducers, createStore } = require("redux"); // CommonJS syntax
 
 // ===========================
 // 1. Action Types
